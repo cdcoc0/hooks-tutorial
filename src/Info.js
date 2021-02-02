@@ -51,6 +51,7 @@ const Info = () => {
                     <b>닉네임: </b>{nickname}
                 </div>
             </div>
+            <hr />
         </div>
     )
 }
