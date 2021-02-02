@@ -22,6 +22,7 @@ const Average = () => {
     };
 
     const avg = useMemo(() => getAverage(list), [list]);
+    //list 배열이 바뀔 때만 getAverage 함수 호출
 
     return(
         <div>
